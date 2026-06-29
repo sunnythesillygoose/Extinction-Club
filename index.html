@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+        <title>Extinction Club!</title>
+</head>
+<body>
+
+ <p> Willkommen im Extinction Club! 
+      <br> <br>
+      Ein Club für Tiere, die längst ausgestorben 
+      sind, jedoch deren irdische Überbleibsel im Naturhistorischen Museum Braunschweig verweilen. 
+      <br> <br>
+      Jedes Präparat ist eine harte Erinnerung an das achtlose Umgehen der Menschheit 
+      mit den Lebewesen um sie herum.
+      <br> <br>
+      Oliver Puskás, VK Digitale Grundlagen Semester 2 bei Insa Deist.
+    </p>
+
+   <img src="pinguin.png" id="pinguin" alt="Riesenalk" onclick="onpinguin()">
+<br>
+   <img src="taube.png" id="taube" alt="Wandertaube" onclick="ontaube()">
+<br>
+    <img src="rabe.png" id="rabe" alt="Färöer Kolkrabe" onclick="onaudio()">
+<br>
+    <img src="papagei.png" id="papagei" alt="Carolinasittich" onclick="onpapagei()">
+<br>
+    <img src="eule.png" id="eule" alt="Lachkauz" onclick="oneule()">
+
+<audio id="voice" onclick="offaudio()" controls>
+  <source src="audio.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>   
+
+ <p id="Quellen"> Quellen:
+      <br> <br>
+      <a href="https://earthlife.net/pied-ravens/">Pied Raven: Extinct Färöe Island Bird</a>
+      <br> <br>
+      <a href="https://www.euppublishing.com/doi/10.3366/anh.2012.0065">Beak tax to control predatory birds in the Faroe Islands</a>
+      <br> <br>
+      <a href="https://3landesmuseen-braunschweig.de/staatliches-naturhistorisches-museum/ausstellungen/dauerausstellungen/die-schatzkammer">Naturhistorisches Museum Braunschweig</a>
+    </p>
+
+    <img src="feather.png" alt="" id="feather">
+
+
+    <div id="pinguintext" onclick="offpinguin()">
+  <div id="text">
+     Der Riesenalk war ein flugunfähiger Wasservogel aus dem Nordatlantik, der ab dem 16. Jahrhundert 
+     gejagt wurde. Mit der Zeit wurde die Jagd zunehmend finanziell lukrativer, weshalb die Jagd trotz 
+     sinkender Population nicht eingestellt wurde. Die letzten Vögel seiner Art wurden am 4. Juni 1844 erjagt.
+
+  </div>
+</div>
+
+ <div id="taubetext" onclick="offtaube()">
+  <div id="text">
+   Die Wandertaube war ein nordamerikanischer Vogel, der auf Getreidefeldern gejagt wurde. Die letzte 
+   Sichtung in der Wildnis war im Jahr 1899.
+  </div>
+</div>
+
+ <div id="papageitext" onclick="offpapagei()">
+  <div id="text">
+    Der Carolinasittich war ein Nordamerikanischer Papagei, dessen Lebensraum von Menschen zerstört 
+    und zu Feldern gemacht wurde. Sittiche, die auf diese Felder kamen wurden gejagt, aber die Vögel 	
+    waren auch beliebte Käfigvögel und Verzierungen für Kleider. Die letzte Sichtung in der Wildnis war im Jahr 1912.
+  </div>
+</div>
+
+ <div id="euletext" onclick="offeule()">
+  <div id="text">
+    Der Lachkauz waren zwei Neuseeländische Vogelrassen. Im 19. Jahrhundert wurde durch die Besiedlung Neuseelands auch 
+    neue Tierarten auf die Insel gebracht. Durch die neue Konkurrenz wurden beide Rassen so weit verdrängt, dass beide
+     seit 1937 ausgestorben sind.
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>

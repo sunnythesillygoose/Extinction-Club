@@ -1,0 +1,152 @@
+body {
+  background-image: url('backg.png');
+  background-size: cover;
+}
+
+#pinguin {
+width: 45vw;
+position: relative;
+top: 47vw;
+left: 0vw;
+}
+
+#taube {
+width: 52vw;
+position: relative;
+top: 45vw;
+left: 35vw;
+}
+
+#papagei {
+width: 50vw;
+position: relative;
+top: 45vw;
+left: 2vw;
+}
+
+#eule {
+width: 40vw;
+position: relative;
+top: 35vw;
+left: 49vw;
+}
+
+#rabe {
+width: 60vw;
+position: relative;
+top: 50vw;
+left: 17vw;
+}
+
+#feather {
+width: 50vw;
+position: relative;
+top: 10vw;
+left: 22vw;
+}
+
+
+p {
+background-color: rgba(0, 0, 0, 0.758);
+background-blend-mode: darken;
+font-size: clamp(14px, 2vw, 30px);
+color: white;
+font-family: 'Courier New', Courier, monospace;
+position: relative;
+top: 50vw;
+text-align: right;
+width: 70vw;
+left: 24vw;
+}
+
+#Quellen {
+text-align: left;
+font-size: clamp(14px, 1vw, 30px);
+top: 1vw;
+width: 40vw;
+left: 2vw;
+}
+
+#pinguintext {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  background-blend-mode: darken;
+  z-index: 2;
+  cursor: pointer;
+}
+#taubetext {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  background-blend-mode: darken;
+  z-index: 2;
+  cursor: pointer;
+}
+#euletext {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  background-blend-mode: darken;
+  z-index: 2;
+  cursor: pointer;
+}
+#papageitext {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  background-blend-mode: darken;
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: clamp(14px, 2vw, 30px);
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  }
+
+  #voice {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.758);
+  background-blend-mode: darken;
+  z-index: 2;
+  cursor: pointer;
+    }
