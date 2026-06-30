@@ -27,7 +27,7 @@ left: 2vw;
 #eule {
 width: 40vw;
 position: relative;
-top: 35vw;
+top: 45vw;
 left: 49vw;
 }
 
@@ -39,9 +39,9 @@ left: 17vw;
 }
 
 #feather {
-width: 50vw;
+width: 40vw;
 position: relative;
-top: 10vw;
+top: 5vw;
 left: 22vw;
 }
 
@@ -62,7 +62,7 @@ left: 24vw;
 #Quellen {
 text-align: left;
 font-size: clamp(14px, 1vw, 30px);
-top: 1vw;
+top: 0vw;
 width: 40vw;
 left: 2vw;
 }
