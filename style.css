@@ -8,6 +8,10 @@ width: 45vw;
 position: relative;
 top: 47vw;
 left: 0vw;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
 }
 
 #taube {
@@ -15,6 +19,10 @@ width: 52vw;
 position: relative;
 top: 45vw;
 left: 35vw;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 5s;
 }
 
 #papagei {
@@ -22,6 +30,10 @@ width: 50vw;
 position: relative;
 top: 55vw;
 left: 2vw;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 10s;
 }
 
 #eule {
@@ -29,6 +41,10 @@ width: 40vw;
 position: relative;
 top: 60vw;
 left: 49vw;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
 }
 
 #rabe {
@@ -36,6 +52,10 @@ width: 60vw;
 position: relative;
 top: 55vw;
 left: 17vw;
+  animation: shake;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
 }
 
 #feather {
@@ -150,3 +170,14 @@ left: 2vw;
   z-index: 2;
   cursor: pointer;
     }
+
+@keyframes shake {
+  0% { transform:  rotate(0deg); }
+  1% { transform:  rotate(-2deg); }
+  2% { transform:  rotate(1deg); }
+  3% { transform:  rotate(-1deg); }
+  4% { transform:  rotate(2deg); }
+  5% { transform:  rotate(-1deg); }
+  6% { transform:  rotate(0deg); }
+  100% { transform:  rotate(0deg); }
+}
