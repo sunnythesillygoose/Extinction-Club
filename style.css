@@ -20,7 +20,7 @@ left: 35vw;
 #papagei {
 width: 50vw;
 position: relative;
-top: 45vw;
+top: 55vw;
 left: 2vw;
 }
 
@@ -34,7 +34,7 @@ left: 49vw;
 #rabe {
 width: 60vw;
 position: relative;
-top: 50vw;
+top: 55vw;
 left: 17vw;
 }
 
@@ -62,7 +62,7 @@ left: 24vw;
 #Quellen {
 text-align: left;
 font-size: clamp(14px, 1vw, 30px);
-top: 0vw;
+top: 5vw;
 width: 40vw;
 left: 2vw;
 }
